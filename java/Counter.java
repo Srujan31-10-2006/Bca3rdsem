@@ -1,6 +1,6 @@
 class Counter {
-static int count = 0; // Static variable shared by all objects
-int objNumber; // Instance variable (different for each object)
+static int count = 0; 
+int objNumber;
 Counter() {
 count++;
 objNumber = count;
